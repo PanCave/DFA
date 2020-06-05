@@ -1,2 +1,11 @@
 ﻿DFA/DFA.Logic/obj/Debug
 DFA/.vs
+DFA/DFA.Logic/bin
+DFA/DFA.Logic.ConsoleTestApp/bin
+DFA/DFA.Logic.ConsoleTestApp/obj
+DFA/DFA.Logic.Tests/bin
+DFA/DFA.Logic.Tests/obj
+DFA/DFA.Objects/bin
+DFA/DFA.Objects/obj
+DFA/DFA.Objects.Interfaces/bin
+DFA/DFA.Objects.Interfaces/obj

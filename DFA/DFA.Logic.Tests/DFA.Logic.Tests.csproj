@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B19597FE-BA08-4B3C-B4A2-277B601E6E8C}</ProjectGuid>
+    <ProjectGuid>{36FE1EEA-4999-4B99-AD88-C82EFFCD67E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DFA.Logic</RootNamespace>
-    <AssemblyName>DFA.Logic</AssemblyName>
+    <RootNamespace>DFA.Logic.Tests</RootNamespace>
+    <AssemblyName>DFA.Logic.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,10 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller.cs" />
+    <Compile Include="ControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DFA.Logic\DFA.Logic.csproj">
+      <Project>{b19597fe-ba08-4b3c-b4a2-277b601e6e8c}</Project>
+      <Name>DFA.Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DFA.Objects.Interfaces\DFA.Objects.Interfaces.csproj">
       <Project>{005b5784-ff46-45a4-b9ec-bde13dc2e108}</Project>
       <Name>DFA.Objects.Interfaces</Name>
