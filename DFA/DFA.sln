@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFA.Objects", "DFA.Objects\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFA.Objects.Interfaces", "DFA.Objects.Interfaces\DFA.Objects.Interfaces.csproj", "{005B5784-FF46-45A4-B9EC-BDE13DC2E108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFA.Logic.ConsoleTestApp", "DFA.Logic.ConsoleTestApp\DFA.Logic.ConsoleTestApp.csproj", "{12B66662-73A2-41A9-A030-CE4CF24E5033}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFA.ConsoleTestApp", "DFA.Logic.ConsoleTestApp\DFA.ConsoleTestApp.csproj", "{12B66662-73A2-41A9-A030-CE4CF24E5033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
